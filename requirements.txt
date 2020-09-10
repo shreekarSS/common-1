@@ -1,12 +1,12 @@
+argo-workflows>=2.0,<3.0
 attrdict
+attrs
 daiquiri
-sentry-sdk
+flexmock
+jsonformatter
+kubernetes==10.0.0
+openshift~=0.10.0
+pyyaml>=3.12
 requests
 rfc5424-logging-handler
-jsonformatter
-attrs
-pyyaml
-requests
-kubernetes == 10.0.0
-openshift  ~= 0.10.0
-argo-workflows >= 2.0, < 3.0
+sentry-sdk
