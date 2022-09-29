@@ -98,6 +98,7 @@ application itself.
 If you want some certain classes of error not to be reported to Sentry, you can
 can provide ``THOTH_SENTRY_IGNORE_EXCEPTION`` environment variable which holds
 a comma-separated list of exception classes to be ignored when reporting to
+
 Sentry:
 
 .. code-block:: console
